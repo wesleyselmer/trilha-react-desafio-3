@@ -14,7 +14,6 @@ const Input = ({leftIcon, name, control, ...rest}) => {
         control={control}
         render={({ field }) =>  <InputText {...field} {...rest} />}
       />
-       
     </InputContainer>
   )
 }

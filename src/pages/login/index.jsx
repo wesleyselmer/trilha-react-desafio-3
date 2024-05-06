@@ -1,4 +1,4 @@
-import { useNavigate  } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { MdEmail, MdLock } from 'react-icons/md'
 import { Button } from '../../components/Button';
 import { Header } from '../../components/Header';
@@ -14,7 +14,7 @@ const Login = () => {
 
     const navigate = useNavigate()
 
-    const { control, handleSubmit, formState: { errors  } } = useForm({
+    const { control, handleSubmit, formState: { errors } } = useForm({
         reValidateMode: 'onChange',
         mode: 'onChange',
     });
@@ -56,7 +56,7 @@ const Login = () => {
                 </form>
                 <Row>
                     <EsqueciText>Esqueci minha senha</EsqueciText>
-                    <CriarText>Criar Conta</CriarText>
+                    <CriarText href="/cadastro">Criar Conta</CriarText>
                 </Row>
                 </Wrapper>
             </Column>

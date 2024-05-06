@@ -70,14 +70,18 @@ export const EsqueciText  = styled.p`
 
     color: #E5E044;
 ` 
-
-export const CriarText =  styled.a`
+export const LinkText = styled.a`
     text-decoration: none;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
-
     color: #23DD7A;
+`
+
+export const SpanError = styled.span`
+margin: 18px 0;
+font-size: 12px;
+color: #FF0000;
 `
